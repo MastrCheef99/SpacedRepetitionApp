@@ -8,7 +8,9 @@ function currentDay() {
 	month += 1
 	year = date.getFullYear();
 	window.alert(month + "/" + day + "/" + year);
-	dy = JSON.stringify(day)
+	var dy = JSON.stringify(day)
 	window.alert(dy+1)
+	var d = JSON.parse(dy)
+	window.alert(d+1)
 }
 currentDay();
