@@ -1,0 +1,38 @@
+.centeredDiv {
+    width: 30vh;
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    min-height: 10vh;
+    outline: solid 1px black;
+    padding: 1vh;
+  }
+  
+  #username, #password, #logusr, #logpwd {
+    border: 5px solid black;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0;  /* Vertical margin only */
+    width: auto;  /* Let the input fill the container */
+  }
+  
+  /* Add some spacing between form elements */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* Adjust paragraph margin */
+  p {
+    margin: 0.5rem 0;
+  }
+  .container {
+    display: flex;
+    gap: 20px;
+  }
+  body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

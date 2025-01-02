@@ -1,0 +1,27 @@
+{
+  "name": "spacedrepetitionapp",
+  "version": "0.1.0",
+  "description": "An app that lets you do spaced repetition. Pre-Alpha right now.",
+  "homepage": "https://github.com/MastrCheef99/SpacedRepetitionApp#readme",
+  "bugs": {
+    "url": "https://github.com/MastrCheef99/SpacedRepetitionApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MastrCheef99/SpacedRepetitionApp.git"
+  },
+  "license": "GPL-3.0",
+  "author": "mastrcheef99",
+  "type": "commonjs",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  }
+}

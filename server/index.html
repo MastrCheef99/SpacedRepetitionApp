@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spaced Repetition App</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="A spaced repetition app.">
+        <meta name="author" content="mastrcheef99">
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "centeredDiv">
+                <h2 style = "text-align: center;">Sign Up</h2>
+                <form id = "form1" action="">
+                    <p>Username</p>
+                    <input id="username" autocomplete="off"/>
+                    <p>Password<br></p>
+                    <input id="password" autocomplete="off"/>
+                    <button>Submit</button>
+                </form>
+            </div>
+            <div class = "centeredDiv">
+                <h2 style = "text-align: center;">Login</h2>
+                <form id = "form2" action="">
+                    <p>Username</p>
+                    <input id="logusr" autocomplete="off"/>
+                    <p>Password<br></p>
+                    <input id="logpwd" autocomplete="off"/>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </div>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="client.js"></script>
+    </body>
+</html>
